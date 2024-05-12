@@ -1,0 +1,61 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  margin: 0;
+  padding: 0;
+  background-color: rgb(119, 191, 254);
+}
+
+header {
+  background-color: rgb(22, 111, 162); /* Warna latar belakang header */
+   text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: aliceblue; /* Warna teks navigasi */
+  text-decoration: none;
+  margin: 0 1.5rem; /* Margin antara link navigasi */
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem; /* Ukuran font judul utama */
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem; /* Ukuran font judul sekunder */
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--first-color-alt); /* Warna latar belakang bagian */
+  border-radius: 12px; /* Sudut bulatan elemen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5; /* Jarak antar baris */
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer {
+ background-color: hsl(208, 56%, 47%); /* Warna latar belakang footer */
+  color: var(--text-color-light); /* Warna teks footer */
+  text-align: center;
+}

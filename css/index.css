@@ -1,0 +1,40 @@
+  body {
+      background-color: rgb(52, 216, 216);
+  }
+
+  .greeting {
+    font-size: 20px;
+  }
+  .datetime {
+    font-size: 18px;
+    color: rgb(15, 62, 103);
+  }
+  .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 3px solid;
+  }
+  
+
+  #time{
+    margin-right: 25px;
+  }
+
+  
+  .navbar {
+      backdrop-filter: blur(10px);
+  }
+  
+  .navbar-brand {
+      font-size: 24px;
+      margin-left:300  ;
+  }
+
+  .navbar-nav .nav-link {
+      font-size: 18px;
+  }
+  .card {
+    max-width: 335px; 
+    margin-bottom: 20px; 
+  }

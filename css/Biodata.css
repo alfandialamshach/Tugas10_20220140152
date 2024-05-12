@@ -1,0 +1,70 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+  color: var(--text-color);
+}
+
+header {
+  background-color: rgb(77, 151, 216); /* Warna latar belakang header */
+  color: var(--title-color); /* Warna teks header */
+  padding: 1.5rem 0; /* Padding header */
+  text-align: center;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: var(--text-color-light); /* Warna teks navigasi */
+  text-decoration: none;
+  margin: 0 1.5rem; /* Margin antara link navigasi */
+  transition: color 0.3s ease; /* Efek transisi warna saat dihover */
+}
+
+nav a:hover {
+  color: var(--title-color); /* Warna teks navigasi saat dihover */
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 3rem; /* Ukuran font judul utama */
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem; /* Ukuran font judul sekunder */
+}
+
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: var(--first-color-alt); /* Warna latar belakang bagian */
+  border-radius: 12px; /* Sudut bulatan elemen */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.5; /* Jarak antar baris */
+}
+
+strong {
+  font-weight: bold;
+}
+
+footer {
+  background-color: rgb(79, 151, 214);/* Warna latar belakang footer */
+  color: var(--text-color-light); /* Warna teks footer */
+  text-align: center;
+  padding: 1.5rem 0; /* Padding footer */
+}
